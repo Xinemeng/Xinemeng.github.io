@@ -9,8 +9,98 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 14 Sep 2021 10:11:51 GMT</pubDate>
+    <pubDate>Wed, 15 Sep 2021 14:07:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>hexo-blog-FAQ3</title>
+      <link>http://example.com/2021/09/15/hexo-blog-FAQ3/</link>
+      <guid>http://example.com/2021/09/15/hexo-blog-FAQ3/</guid>
+      <pubDate>Wed, 15 Sep 2021 13:49:22 GMT</pubDate>
+      
+      <description>&lt;p&gt;hexo d时出现错误：the remote end hung up unexpectedly&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>hexo d时出现错误：the remote end hung up unexpectedly</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code>fatal:the remote end hung up unexpectedly</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq3_1.png"></p><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>推送的文件太大，或网络不行。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>方法1：修改postBuffer的大小,输入下列命令git congfig --global http.postBuffer 524288000方法2：直接修改本地仓库的.config文件打开根目录下的隐藏文件.deploy_git/.git/config文件，添加两行内容:[http]    postBuffer = 524288000</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq3_2.png"></p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/hexo/">hexo</category>
+      
+      <category domain="http://example.com/categories/hexo/hexo-FAQs/">hexo_FAQs</category>
+      
+      
+      
+      <comments>http://example.com/2021/09/15/hexo-blog-FAQ3/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo-blog-FAQ2</title>
+      <link>http://example.com/2021/09/15/hexo-blog-FAQ2/</link>
+      <guid>http://example.com/2021/09/15/hexo-blog-FAQ2/</guid>
+      <pubDate>Wed, 15 Sep 2021 10:37:34 GMT</pubDate>
+      
+      <description>&lt;p&gt;Hexo server出现报错TypeError: Cannot read property ‘utcOffset’ of null&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Hexo server出现报错TypeError: Cannot read property ‘utcOffset’ of null</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code> TypeError: Cannot read property &#39;utcOffset&#39; of null...</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq2.png"></p><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>新手搭建blog时，更改全局配置文件_config.yml（博客根目录中的那个）中的时区timezone填成了beijing，事实上并无此选项。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>把timezone填成 Asia/Shanghai即可，注意冒号后要有空格。</code></pre>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/hexo/">hexo</category>
+      
+      <category domain="http://example.com/categories/hexo/hexo-FAQs/">hexo_FAQs</category>
+      
+      
+      
+      <comments>http://example.com/2021/09/15/hexo-blog-FAQ2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo-blog-FAQ1</title>
+      <link>http://example.com/2021/09/15/hexo-blog-FAQ1/</link>
+      <guid>http://example.com/2021/09/15/hexo-blog-FAQ1/</guid>
+      <pubDate>Wed, 15 Sep 2021 10:19:59 GMT</pubDate>
+      
+      <description>&lt;p&gt;hexo搭建时出现FATAL can not read a block mapping entry&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>hexo搭建时出现FATAL can not read a block mapping entry</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code> FATAL can not read a block mapping entry...</code></pre><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>对配置文件_config.yml进行更改时，无意中造成了一些语法错误。最为常见的是缩进和空格问题，以及中英文引号问题。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>每一配置项都是名称+冒号+空格+参数，注意检查更改过的配置项。倘若更改得太多，难以找寻，可以从官网从新下载_config.yml文件终极办法：新建blog目录，从头搭建。</code></pre>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/hexo/">hexo</category>
+      
+      <category domain="http://example.com/categories/hexo/hexo-FAQs/">hexo_FAQs</category>
+      
+      
+      
+      <comments>http://example.com/2021/09/15/hexo-blog-FAQ1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>利用PS将短视频制作成gif图片</title>
+      <link>http://example.com/2021/09/14/blog2/</link>
+      <guid>http://example.com/2021/09/14/blog2/</guid>
+      <pubDate>Tue, 14 Sep 2021 14:25:56 GMT</pubDate>
+      
+      <description>&lt;p&gt;本篇内容讲述如何利用PS将短视频制作成gif，以及一些注意事项。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>本篇内容讲述如何利用PS将短视频制作成gif，以及一些注意事项。</p><span id="more"></span><h1 id="步骤1："><a href="#步骤1：" class="headerlink" title="步骤1："></a>步骤1：</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">点击菜单栏-文件-导入，选择“视频帧到图层”。</span><br></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/4YVP%25PNZF1)87Y6%40S0HNW42.png"></p><h1 id="步骤2："><a href="#步骤2：" class="headerlink" title="步骤2："></a>步骤2：</h1><pre><code>选择需要转换的视频，在弹出的对话框中可调整转换范围</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/ps2.png"></p><h1 id="步骤3："><a href="#步骤3：" class="headerlink" title="步骤3："></a>步骤3：</h1><pre><code>点击确定，将视频帧转换成多个图层</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/ps3.png"></p><h1 id="步骤4："><a href="#步骤4：" class="headerlink" title="步骤4："></a>步骤4：</h1><pre><code>在菜单栏点击文件-导出，选择存储为Web所用格式，文件格式选择GIF即可。</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/ps4.png"></p><h1 id="注意事项："><a href="#注意事项：" class="headerlink" title="注意事项："></a>注意事项：</h1><pre><code>视频文件不宜过大，即视频分辨率不宜过高、时间长度不宜过长，否则容易导致PS卡死。生成的gif图片大小为原视频的十倍以上。</code></pre><h1 id="可能遇见问题"><a href="#可能遇见问题" class="headerlink" title="可能遇见问题"></a>可能遇见问题</h1><pre><code>进行步骤1导入视频时，跳出“不能完成‘视频帧到图层”命令，因为DynamicLink不可用”的报错。解决办法：换一个PS版本。（第三方破解版可能存在依赖问题）</code></pre>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E8%BD%AF%E4%BB%B6%E5%B0%8F%E6%8A%80%E5%B7%A7/">软件小技巧</category>
+      
+      
+      
+      <comments>http://example.com/2021/09/14/blog2/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hello hexo markdown</title>
