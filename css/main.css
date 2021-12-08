@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1f9ca8;
+  background: #21f7e5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2390,7 +2390,7 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("/images/back.webp");
+  background: url("xinemeng.github.io/images/back.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
