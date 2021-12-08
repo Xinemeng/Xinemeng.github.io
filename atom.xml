@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>星梦闲语</title>
+  
+  <subtitle>碎碎念</subtitle>
+  <link href="http://xinemeng.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://xinemeng.github.io/"/>
+  <updated>2021-09-15T14:07:16.000Z</updated>
+  <id>http://xinemeng.github.io/</id>
+  
+  <author>
+    <name>杰世</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-blog-FAQ3</title>
+    <link href="http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ3/"/>
+    <id>http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ3/</id>
+    <published>2021-09-15T13:49:22.000Z</published>
+    <updated>2021-09-15T14:07:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo d时出现错误：the remote end hung up unexpectedly</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code>fatal:the remote end hung up unexpectedly</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq3_1.png"></p><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>推送的文件太大，或网络不行。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>方法1：修改postBuffer的大小,输入下列命令git congfig --global http.postBuffer 524288000方法2：直接修改本地仓库的.config文件打开根目录下的隐藏文件.deploy_git/.git/config文件，添加两行内容:[http]    postBuffer = 524288000</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq3_2.png"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;hexo d时出现错误：the remote end hung up unexpectedly&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://xinemeng.github.io/categories/hexo/"/>
+    
+    <category term="hexo_FAQs" scheme="http://xinemeng.github.io/categories/hexo/hexo-FAQs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-blog-FAQ2</title>
+    <link href="http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ2/"/>
+    <id>http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ2/</id>
+    <published>2021-09-15T10:37:34.000Z</published>
+    <updated>2021-09-15T11:03:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo server出现报错TypeError: Cannot read property ‘utcOffset’ of null</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code> TypeError: Cannot read property &#39;utcOffset&#39; of null...</code></pre><p><img src="https://raw.githubusercontent.com/Xinemeng/blog_images/main/faq2.png"></p><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>新手搭建blog时，更改全局配置文件_config.yml（博客根目录中的那个）中的时区timezone填成了beijing，事实上并无此选项。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>把timezone填成 Asia/Shanghai即可，注意冒号后要有空格。</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Hexo server出现报错TypeError: Cannot read property ‘utcOffset’ of null&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://xinemeng.github.io/categories/hexo/"/>
+    
+    <category term="hexo_FAQs" scheme="http://xinemeng.github.io/categories/hexo/hexo-FAQs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-blog-FAQ1</title>
+    <link href="http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ1/"/>
+    <id>http://xinemeng.github.io/2021/09/15/hexo-blog-FAQ1/</id>
+    <published>2021-09-15T10:19:59.000Z</published>
+    <updated>2021-09-15T10:36:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>hexo搭建时出现FATAL can not read a block mapping entry</p><span id="more"></span><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><pre><code> FATAL can not read a block mapping entry...</code></pre><h1 id="可能原因"><a href="#可能原因" class="headerlink" title="可能原因"></a>可能原因</h1><pre><code>对配置文件_config.yml进行更改时，无意中造成了一些语法错误。最为常见的是缩进和空格问题，以及中英文引号问题。</code></pre><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><pre><code>每一配置项都是名称+冒号+空格+参数，注意检查更改过的配置项。倘若更改得太多，难以找寻，可以从官网从新下载_config.yml文件终极办法：新建blog目录，从头搭建。</code></pre>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;hexo搭建时出现FATAL can not read a block mapping entry&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://xinemeng.github.io/categories/hexo/"/>
+    
+    <category term="hexo_FAQs" scheme="http://xinemeng.github.io/categories/hexo/hexo-FAQs/"/>
+    
+    
+  </entry>
+  
+</feed>
