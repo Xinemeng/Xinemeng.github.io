@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>MarkdownPad2下载及配套Awesomium下载</title>
+    <url>/1970/01/01/MarkdownPad2%E4%B8%8B%E8%BD%BD/</url>
+    <content><![CDATA[<p>书写博客所需要的工具MarkdownPad2下载</p>
+<span id="more"></span>
+<h1 id="一、MarkdownPad2下载"><a href="#一、MarkdownPad2下载" class="headerlink" title="一、MarkdownPad2下载"></a>一、MarkdownPad2下载</h1><p>简介：Markdown是一种标记语言，能够让人们使用纯文本语言编写文档，然后转换成HTML文档，目前被许多论坛如github、简书等所应用。其语法规则可参考<a href="https://markdown.com.cn/">Markdown官方教程</a>。</p>
+<p>MarkdownPad2就是一种常用的编辑器，能够有效地帮助我们写博客。<br>下载：打开<a href="http://markdownpad.com/">MarkdownPad官网</a>，点击菜单栏上的Download即可下载。<img src="/images/markdown.png" alt="如图所示"></p>
+<h1 id="二、-Awesomium下载"><a href="#二、-Awesomium下载" class="headerlink" title="二、 Awesomium下载"></a>二、 Awesomium下载</h1><p>首次使用MarkdownPad2的时候，该编辑器右边会出现缺少awesomium的提示：<br><img src="/images/awesomium.png" alt="如图所示"><br>安装awesomium可以解决渲染问题。</p>
+<p>此时可以通过MarkdownPad的官网下载，下载方法如下：首先点击菜单栏的FAQ<br><img src="/images/awesomium2.png" alt="如图所示"><br>然后通过Ctrl+f搜索awesomium，就可出现相关的<a href="http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe">Awesomium1.6.6 SDK</a>链接。<br><img src="/images/awesomium3.png" alt="如图所示"></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>博客书写</category>
+      </categories>
+  </entry>
+  <entry>
     <title>hexo-blog-FAQ1</title>
     <url>/2021/09/15/hexo-blog-FAQ1/</url>
     <content><![CDATA[<p>hexo搭建时出现FATAL can not read a block mapping entry</p>
@@ -59,6 +74,158 @@ git congfig --global http.postBuffer 524288000
       <categories>
         <category>hexo</category>
         <category>hexo_FAQs</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>python中的关键字</title>
+    <url>/1970/01/01/python%E5%85%B3%E9%94%AE%E5%AD%97/</url>
+    <content><![CDATA[<p>python中的33个关键字</p>
+<span id="more"></span>
+<p>查询方法：在python中import keyword模块，输入keyword.kwlist即可查询所有关键字。另外可以使用keyword.iskeyword(“xxx”)查看xxx是不是关键字。</p>
+<table>
+<thead>
+<tr>
+<th>关键字</th>
+<th>简要描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>and</strong></td>
+<td>逻辑判断：“与”</td>
+</tr>
+<tr>
+<td><strong>as</strong></td>
+<td>把as后的对象代替前面的对象import…as…; with…as…; except…as…</td>
+</tr>
+<tr>
+<td><strong>assert</strong></td>
+<td>断言语句，当判断表达式条件为false的时候，触发异常</td>
+</tr>
+<tr>
+<td><strong>break</strong></td>
+<td>中止循环</td>
+</tr>
+<tr>
+<td><strong>class</strong></td>
+<td>定义类</td>
+</tr>
+<tr>
+<td><strong>continue</strong></td>
+<td>跳出当前循环，当前循环后面的语句不再执行</td>
+</tr>
+<tr>
+<td><strong>def</strong></td>
+<td>定义函数</td>
+</tr>
+<tr>
+<td><strong>del</strong></td>
+<td>删除变量或元素</td>
+</tr>
+<tr>
+<td><strong>elif</strong></td>
+<td>条件语句的再次判断，与if结合使用</td>
+</tr>
+<tr>
+<td><strong>else</strong></td>
+<td>条件语句的再次判断，与if结合使用</td>
+</tr>
+<tr>
+<td><strong>except</strong></td>
+<td>处理异常，与try连用</td>
+</tr>
+<tr>
+<td><strong>False</strong></td>
+<td>布尔类型，假</td>
+</tr>
+<tr>
+<td><strong>finally</strong></td>
+<td>处理异常，try…except…[else]…[finally]在try语句中最后一定执行</td>
+</tr>
+<tr>
+<td><strong>for</strong></td>
+<td>for循环，与in搭配</td>
+</tr>
+<tr>
+<td><strong>from</strong></td>
+<td>导入模块或函数，from…import…</td>
+</tr>
+<tr>
+<td><strong>global</strong></td>
+<td>声明变量为全局变量</td>
+</tr>
+<tr>
+<td><strong>if</strong></td>
+<td>条件语句，如果</td>
+</tr>
+<tr>
+<td><strong>import</strong></td>
+<td>导入模块</td>
+</tr>
+<tr>
+<td><strong>in</strong></td>
+<td>与for组成循环结构，获取每一项；逻辑判断看是否包含</td>
+</tr>
+<tr>
+<td><strong>is</strong></td>
+<td>判断两个标识符（变量）是否一致 ，同时看变量内容和所在内存地址，与==不一样</td>
+</tr>
+<tr>
+<td><strong>lambda</strong></td>
+<td>匿名函数</td>
+</tr>
+<tr>
+<td><strong>None</strong></td>
+<td>空值，但不表示0和空字符串等</td>
+</tr>
+<tr>
+<td><strong>nonlocal</strong></td>
+<td>将变量声明为外层函数的局部变量</td>
+</tr>
+<tr>
+<td><strong>not</strong></td>
+<td>逻辑判断：“非”</td>
+</tr>
+<tr>
+<td><strong>or</strong></td>
+<td>逻辑判断：“或”</td>
+</tr>
+<tr>
+<td><strong>pass</strong></td>
+<td>占位符</td>
+</tr>
+<tr>
+<td><strong>raise</strong></td>
+<td>主动抛出异常</td>
+</tr>
+<tr>
+<td><strong>return</strong></td>
+<td>返回函数值</td>
+</tr>
+<tr>
+<td><strong>try</strong></td>
+<td>处理异常</td>
+</tr>
+<tr>
+<td><strong>True</strong></td>
+<td>布尔类型，真</td>
+</tr>
+<tr>
+<td><strong>while</strong></td>
+<td>当，while循环</td>
+</tr>
+<tr>
+<td><strong>with</strong></td>
+<td>上下文管理器with open() as…，打开文件确保关闭释放资源</td>
+</tr>
+<tr>
+<td><strong>yield</strong></td>
+<td>带yield的函数就是一个生成器</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>编程</category>
+        <category>python</category>
       </categories>
   </entry>
 </search>
